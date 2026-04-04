@@ -18,7 +18,7 @@
 
 1. **克隆并配置 Laravel Light API**
    ```bash
-   git clone https://github.com/yourusername/laravel-light-api.git
+   git clone https://github.com/felix7word/laravel-light-api.git
    cd laravel-light-api
    composer install
    cp .env.example .env

@@ -147,7 +147,7 @@ database/
 3. **部署项目**
    ```bash
    cd /var/www
-   git clone https://github.com/yourusername/laravel-light-api.git
+   git clone https://github.com/felix7word/laravel-light-api.git
    cd laravel-light-api
    composer install
    cp .env.example .env
@@ -378,7 +378,7 @@ database/
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/yourusername/laravel-light-api.git
+   git clone https://github.com/felix7word/laravel-light-api.git
    cd laravel-light-api
    ```
 

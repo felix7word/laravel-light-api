@@ -3,10 +3,10 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/yourusername/laravel-light-api/actions"><img src="https://github.com/yourusername/laravel-light-api/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://github.com/yourusername/laravel-light-api"><img src="https://img.shields.io/github/stars/yourusername/laravel-light-api" alt="GitHub Stars"></a>
-<a href="https://github.com/yourusername/laravel-light-api"><img src="https://img.shields.io/github/forks/yourusername/laravel-light-api" alt="GitHub Forks"></a>
-<a href="https://github.com/yourusername/laravel-light-api"><img src="https://img.shields.io/github/license/yourusername/laravel-light-api" alt="License"></a>
+<a href="https://github.com/felix7word/laravel-light-api/actions"><img src="https://github.com/felix7word/laravel-light-api/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/felix7word/laravel-light-api"><img src="https://img.shields.io/github/stars/felix7word/laravel-light-api" alt="GitHub Stars"></a>
+<a href="https://github.com/felix7word/laravel-light-api"><img src="https://img.shields.io/github/forks/felix7word/laravel-light-api" alt="GitHub Forks"></a>
+<a href="https://github.com/felix7word/laravel-light-api"><img src="https://img.shields.io/github/license/felix7word/laravel-light-api" alt="License"></a>
 </p>
 
 A lightweight Laravel API starter template for rapid development, designed to help you build RESTful APIs quickly and efficiently.
@@ -40,7 +40,7 @@ A lightweight Laravel API starter template for rapid development, designed to he
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/laravel-light-api.git
+   git clone https://github.com/felix7word/laravel-light-api.git
    cd laravel-light-api
    ```
 
@@ -225,7 +225,7 @@ This project is open-sourced software licensed under the [MIT license](https://o
 3. **Deploy project**
    ```bash
    cd /var/www
-   git clone https://github.com/yourusername/laravel-light-api.git
+   git clone https://github.com/felix7word/laravel-light-api.git
    cd laravel-light-api
    composer install
    cp .env.example .env
