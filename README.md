@@ -13,10 +13,6 @@ A lightweight Laravel API starter template for rapid development, designed to he
 
 ## Architecture
 
-<p align="center">
-  <img src="https://i.imgur.com/dQz9X8Y.png" alt="Laravel API Architecture" width="800">
-</p>
-
 ### Architecture Overview
 
 The Laravel Light API follows a clean, modular architecture:
@@ -85,10 +81,6 @@ API documentation is automatically generated using [Scribe](https://scribe.knuck
 ```
 http://localhost:8000/docs
 ```
-
-<p align="center">
-  <img src="https://i.imgur.com/8B7f9aG.png" alt="API Documentation" width="800">
-</p>
 
 ### API Documentation
 
