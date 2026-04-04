@@ -14,8 +14,10 @@ A lightweight Laravel API starter template for rapid development, designed to he
 ## Architecture
 
 <p align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Laravel%20API%20architecture%20diagram%20showing%20request%20flow%20from%20client%20to%20API%20routes%20to%20controllers%20to%20models%20and%20back%20to%20client%2C%20with%20authentication%20layer%20and%20database%2C%20professional%20technical%20diagram%20with%20Laravel%20logo%2C%20blue%20and%20gray%20color%20scheme&image_size=landscape_16_9" alt="Laravel API Architecture" width="800">
+  <img src="https://raw.githubusercontent.com/felix7word/laravel-light-api/main/docs/architecture.png" alt="Laravel API Architecture" width="800">
 </p>
+
+> **Note:** If the image doesn't load, please refer to the project documentation for architecture details.
 
 ## Features
 
@@ -75,8 +77,10 @@ http://localhost:8000/docs
 ```
 
 <p align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=API%20documentation%20interface%20for%20Laravel%20API%20showing%20endpoints%2C%20request%20parameters%2C%20and%20response%20examples%2C%20professional%20clean%20interface%20with%20code%20snippets%2C%20blue%20and%20white%20color%20scheme&image_size=landscape_16_9" alt="API Documentation" width="800">
+  <img src="https://raw.githubusercontent.com/felix7word/laravel-light-api/main/docs/api-documentation.png" alt="API Documentation" width="800">
 </p>
+
+> **Note:** If the image doesn't load, please refer to the project documentation for API documentation details.
 
 To regenerate the documentation after making changes to your API:
 
