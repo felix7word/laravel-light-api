@@ -1,0 +1,53 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+/.idea
+/.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Cache
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Storage
+/storage/app/*
+!/storage/app/.gitkeep
+
+# Testing
+/tests/_output
+/tests/_support
+
+# Build
+/public/hot
+/public/storage
+
+# Scribe documentation
+.storage/
+
+# Composer
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+
+# Laravel Telescope
+/storage/telescope/*
+!/storage/telescope/.gitkeep
+
+# Laravel Horizon
+/storage/horizon/*
+!/storage/horizon/.gitkeep
