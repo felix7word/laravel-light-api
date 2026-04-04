@@ -14,7 +14,7 @@ A lightweight Laravel API starter template for rapid development, designed to he
 ## Architecture
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x450?text=Laravel+API+Architecture" alt="Laravel API Architecture" width="800">
+  <img src="https://i.imgur.com/dQz9X8Y.png" alt="Laravel API Architecture" width="800">
 </p>
 
 ### Architecture Overview
@@ -87,7 +87,7 @@ http://localhost:8000/docs
 ```
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x450?text=API+Documentation" alt="API Documentation" width="800">
+  <img src="https://i.imgur.com/8B7f9aG.png" alt="API Documentation" width="800">
 </p>
 
 ### API Documentation
