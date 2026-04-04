@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/API-RESTful-orange.svg" alt="API Type">
 </p>
 
-A lightweight Laravel API starter template for rapid development, designed to help you build RESTful APIs quickly and efficiently.
+A lightweight Laravel API starter template for rapid PHP development, designed to help you build RESTful APIs quickly and efficiently. This Laravel API template provides a solid foundation for PHP developers to create robust and scalable API applications.
 
 ## Architecture
 
@@ -27,22 +27,22 @@ This architecture ensures separation of concerns and makes the codebase more mai
 
 ## Features
 
-- ✅ Lightweight structure with minimal dependencies
-- ✅ User authentication with Laravel Sanctum
-- ✅ CRUD operations with example Post resource
-- ✅ API documentation with Scribe
-- ✅ Consistent API response format
-- ✅ Advanced query filtering with Spatie Query Builder
-- ✅ IDE helper support
-- ✅ GitHub Actions workflow for code quality
+- ✅ Lightweight Laravel API structure with minimal PHP dependencies
+- ✅ User authentication with Laravel Sanctum for secure API access
+- ✅ Complete CRUD operations with example Post resource for PHP API development
+- ✅ Automatic API documentation generation with Scribe
+- ✅ Consistent API response format for PHP Laravel applications
+- ✅ Advanced query filtering with Spatie Query Builder for Laravel APIs
+- ✅ IDE helper support for PHP development
+- ✅ GitHub Actions workflow for Laravel PHP code quality
 
 ## Getting Started
 
 ### Prerequisites
 
-- PHP >= 8.1
-- Composer
-- MySQL or SQLite
+- PHP >= 8.1 (required for Laravel 10+ API development)
+- Composer (PHP dependency manager)
+- MySQL or SQLite (database for Laravel API applications)
 
 ### Installation
 

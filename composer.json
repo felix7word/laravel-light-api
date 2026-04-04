@@ -1,8 +1,8 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "A lightweight Laravel API starter template for rapid development.",
-    "keywords": ["laravel", "api", "lightweight", "starter", "template"], 
+    "description": "A lightweight Laravel API starter template for rapid PHP development.",
+    "keywords": ["laravel", "api", "php", "restful", "lightweight", "starter", "template", "backend", "sanctum", "crud"],  
     "license": "MIT",
     "require": {
         "php": "^8.1",
