@@ -3,10 +3,10 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/felix7word/laravel-light-api/actions"><img src="https://github.com/felix7word/laravel-light-api/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://github.com/felix7word/laravel-light-api"><img src="https://img.shields.io/github/stars/felix7word/laravel-light-api" alt="GitHub Stars"></a>
-<a href="https://github.com/felix7word/laravel-light-api"><img src="https://img.shields.io/github/forks/felix7word/laravel-light-api" alt="GitHub Forks"></a>
-<a href="https://github.com/felix7word/laravel-light-api"><img src="https://img.shields.io/github/license/felix7word/laravel-light-api" alt="License"></a>
+<img src="https://img.shields.io/badge/PHP-8.1+-blue.svg" alt="PHP Version">
+<img src="https://img.shields.io/badge/Laravel-10+-red.svg" alt="Laravel Version">
+<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+<img src="https://img.shields.io/badge/API-RESTful-orange.svg" alt="API Type">
 </p>
 
 A lightweight Laravel API starter template for rapid development, designed to help you build RESTful APIs quickly and efficiently.
@@ -14,10 +14,20 @@ A lightweight Laravel API starter template for rapid development, designed to he
 ## Architecture
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/felix7word/laravel-light-api/main/docs/architecture.png" alt="Laravel API Architecture" width="800">
+  <img src="https://via.placeholder.com/800x450?text=Laravel+API+Architecture" alt="Laravel API Architecture" width="800">
 </p>
 
-> **Note:** If the image doesn't load, please refer to the project documentation for architecture details.
+### Architecture Overview
+
+The Laravel Light API follows a clean, modular architecture:
+
+1. **Client Layer** - Frontend applications (web, mobile, desktop)
+2. **API Layer** - Routes and controllers handling HTTP requests
+3. **Service Layer** - Business logic and data processing
+4. **Data Layer** - Models and database interactions
+5. **Infrastructure Layer** - Authentication, caching, and other services
+
+This architecture ensures separation of concerns and makes the codebase more maintainable and testable.
 
 ## Features
 
@@ -77,10 +87,18 @@ http://localhost:8000/docs
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/felix7word/laravel-light-api/main/docs/api-documentation.png" alt="API Documentation" width="800">
+  <img src="https://via.placeholder.com/800x450?text=API+Documentation" alt="API Documentation" width="800">
 </p>
 
-> **Note:** If the image doesn't load, please refer to the project documentation for API documentation details.
+### API Documentation
+
+API documentation is automatically generated using Scribe, providing:
+
+- ✅ Interactive API endpoints
+- ✅ Request parameters and examples
+- ✅ Response formats and schemas
+- ✅ Authentication requirements
+- ✅ Code samples in multiple languages
 
 To regenerate the documentation after making changes to your API:
 
