@@ -365,3 +365,22 @@ This project is open-sourced software licensed under the [MIT license](https://o
 ## Support
 
 If you like this project, please consider giving it a ⭐ star on GitHub!
+
+## Commercial Support
+
+For enterprise-grade support and custom solutions, contact us:
+
+- **Name**: felix7word
+- **Email**: [felix.7word@gmail.com](mailto:felix.7word@gmail.com)
+- **GitHub**: [https://github.com/felix7word](https://github.com/felix7word)
+
+### We Offer:
+
+- ✅ Custom integration solutions
+- ✅ Enterprise-grade support
+- ✅ Tailored features for specific business needs
+- ✅ Priority bug fixes and updates
+
+## License
+
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
