@@ -73,6 +73,7 @@ class AuthController extends Controller
 
         $token = $user->createToken('auth_token')->plainTextToken;
 
+        // 安装插件后 success 方法可以正常跳转
         return $this->success([
             'access_token' => $token,
             'token_type' => 'Bearer',
