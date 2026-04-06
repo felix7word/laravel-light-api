@@ -3,8 +3,8 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Http\Request;
 use Illuminate\Cache\RateLimiter;
+use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class RateLimit
@@ -19,7 +19,6 @@ class RateLimit
     /**
      * Create a new rate limit middleware instance.
      *
-     * @param  \Illuminate\Cache\RateLimiter  $limiter
      * @return void
      */
     public function __construct(RateLimiter $limiter)
@@ -30,7 +29,6 @@ class RateLimit
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
     public function handle(Request $request, Closure $next): Response

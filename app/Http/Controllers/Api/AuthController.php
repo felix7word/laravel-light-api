@@ -6,22 +6,21 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 
 /**
  * @group Authentication
- * 
+ *
  * APIs for user authentication
  */
 class AuthController extends Controller
 {
     /**
      * Register a new user
-     * 
+     *
      * @bodyParam name string required The user's name. Example: John Doe
      * @bodyParam email string required The user's email. Example: john@example.com
      * @bodyParam password string required The user's password. Example: password123
-     * 
+     *
      * @response 200 {"access_token": "string", "token_type": "Bearer", "user": {"id": 1, "name": "John Doe", "email": "john@example.com", "email_verified_at": null, "created_at": "2026-04-05T00:00:00.000000Z", "updated_at": "2026-04-05T00:00:00.000000Z"}}
      */
     public function register(Request $request)
@@ -49,10 +48,10 @@ class AuthController extends Controller
 
     /**
      * Login a user
-     * 
+     *
      * @bodyParam email string required The user's email. Example: john@example.com
      * @bodyParam password string required The user's password. Example: password123
-     * 
+     *
      * @response 200 {"access_token": "string", "token_type": "Bearer", "user": {"id": 1, "name": "John Doe", "email": "john@example.com", "email_verified_at": null, "created_at": "2026-04-05T00:00:00.000000Z", "updated_at": "2026-04-05T00:00:00.000000Z"}}
      * @response 422 {"message": "The provided credentials are incorrect.", "errors": {"email": ["The provided credentials are incorrect."]}}
      */
@@ -83,9 +82,9 @@ class AuthController extends Controller
 
     /**
      * Logout a user
-     * 
+     *
      * @authenticated
-     * 
+     *
      * @response 200 {"message": "Successfully logged out"}
      */
     public function logout(Request $request)
@@ -97,9 +96,9 @@ class AuthController extends Controller
 
     /**
      * Get the current user
-     * 
+     *
      * @authenticated
-     * 
+     *
      * @response 200 {"id": 1, "name": "John Doe", "email": "john@example.com", "email_verified_at": null, "created_at": "2026-04-05T00:00:00.000000Z", "updated_at": "2026-04-05T00:00:00.000000Z"}
      */
     public function user(Request $request)
